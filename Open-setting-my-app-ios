@@ -1,0 +1,3 @@
+if(&UIApplicationOpenSettingsURLString != nil){
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+}
